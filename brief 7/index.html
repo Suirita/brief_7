@@ -1,0 +1,115 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>List De Restaurants</title>
+    <link rel="stylesheet" href="style_1.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Caveat&display=swap" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins&display=swap" rel="stylesheet">
+    <script src="https://kit.fontawesome.com/1e702862f4.js" crossorigin="anonymous"></script>
+
+</head>
+
+<body>
+
+    <header id="header">
+
+        <div id="navbar">
+
+            <h1>Tangier<br>
+            Restaurants</h1>
+
+                <div id="wrap">
+
+                    <form id="search">
+
+                        <input type="text" id="searchTerm" placeholder="search">
+                        <button type="button" id="searchButton" onclick="shearch()"><i class="fa-solid fa-magnifying-glass"></i></button>
+
+                    </form>
+                </div>
+
+            <nav>
+
+                <ul>
+                    <i class="fa-light fa-bars"></i>
+                    <li><a href="#header">Home</a></li>
+                    <li id="category">
+                        <a>Categories</a>
+                        <ul>
+                            <li class="dropdown">Moroccan</li>
+                            <li class="dropdown">French</li>
+                            <li class="dropdown">International</li>
+                            <li class="dropdown">Mediterranean</li>
+                            <li class="dropdown">MiddleEastern</li>
+                        </ul>
+                    </li>
+                    <li><a href="#footer">Contact</a></li>
+                </ul>
+            </nav>
+
+        </div>
+
+        <div class="slider">
+
+            <div class="slides">
+
+                <div class="slide">
+                    <img src="images/el-morocco-club.jpg" alt="Image 1">
+                    <span id="name_1">El Morocco Club</span>
+                </div>
+
+                <div class="slide">
+                    <img src="images/happy-customers.jpg" alt="Image 2">
+                    <span id="name_2">Restaurant Ahlen</span>
+                </div>
+
+                <div class="slide">
+                    <img src="images/villa-josephine.jpg" alt="Image 3">
+                    <span id="name_3">Villa Josephine</span>
+                </div>
+
+            </div>
+            
+            <div class="prev">&#10094;</div>
+            <div class="next">&#10095;</div>
+
+        </div>
+
+    </header>
+
+    <main>
+
+        <div id="container">
+
+        </div>
+
+        <div class="spacer_1"></div>
+        <div class="spacer_2"></div>
+
+    </main>
+
+    <footer id="footer">
+
+        <div class="footer">
+            <h1>Contact</h1>
+            <i class="fa-brands fa-instagram fa-3x"></i>
+            <i class="fa-brands fa-x-twitter fa-3x"></i>
+            <i class="fa-brands fa-linkedin fa-3x"></i>
+        </div>
+        
+
+    </footer> 
+
+    <script src="script.js"></script>
+    
+</body>
+
+</html>
